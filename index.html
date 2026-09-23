@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Teclados Custom</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="navbar">
+    <a href="#" class="logo">KEY<span>LAB</span></a>
+    <nav>
+      <a href="#que-es">Qué es</a>
+      <a href="#partes">Partes</a>
+      <a href="#switches">Switches</a>
+      <a href="#galeria">Galería</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-text">
+      <p class="tag">Presentación</p>
+      <h1>El mundo de los <span>teclados custom</span></h1>
+      <p>Teclados mecánicos armados pieza por pieza: tú eliges el tamaño, el sonido, la sensación y el estilo.</p>
+      <a href="#que-es" class="btn">Empezar</a>
+    </div>
+
+    <div class="keyboard" aria-hidden="true">
+      <div class="row">
+        <span class="key esc">Esc</span><span class="key">1</span><span class="key">2</span><span class="key">3</span><span class="key">4</span><span class="key">5</span><span class="key">6</span><span class="key">7</span><span class="key">8</span><span class="key">9</span><span class="key">0</span><span class="key wide">⌫</span>
+      </div>
+      <div class="row">
+        <span class="key w15">Tab</span><span class="key">Q</span><span class="key">W</span><span class="key">E</span><span class="key">R</span><span class="key">T</span><span class="key">Y</span><span class="key">U</span><span class="key">I</span><span class="key">O</span><span class="key">P</span><span class="key w15">\</span>
+      </div>
+      <div class="row">
+        <span class="key w175">Caps</span><span class="key">A</span><span class="key">S</span><span class="key">D</span><span class="key">F</span><span class="key">G</span><span class="key">H</span><span class="key">J</span><span class="key">K</span><span class="key">L</span><span class="key accent w225">Enter</span>
+      </div>
+      <div class="row">
+        <span class="key w225">Shift</span><span class="key">Z</span><span class="key">X</span><span class="key">C</span><span class="key">V</span><span class="key">B</span><span class="key">N</span><span class="key">M</span><span class="key">,</span><span class="key">.</span><span class="key w275">Shift</span>
+      </div>
+      <div class="row">
+        <span class="key w15">Ctrl</span><span class="key w15">Alt</span><span class="key space"></span><span class="key w15">Alt</span><span class="key w15">Ctrl</span>
+      </div>
+    </div>
+  </section>
+
+  <section id="que-es" class="section">
+    <h2>¿Qué es un teclado custom?</h2>
+    <p class="lead">Es un teclado mecánico que se arma a partir de componentes elegidos por el usuario, en lugar de comprarlo listo de fábrica. Cada parte cambia cómo se ve, cómo se siente y cómo suena.</p>
+    <div class="cards">
+      <article class="card">
+        <h3>Personalización</h3>
+        <p>Colores, materiales, distribución y leyendas a tu gusto.</p>
+      </article>
+      <article class="card">
+        <h3>Ergonomía</h3>
+        <p>Tamaños compactos, layouts divididos y teclas programables.</p>
+      </article>
+      <article class="card">
+        <h3>Sonido</h3>
+        <p>Desde un "thock" grave hasta un "clack" agudo, según las piezas.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="partes" class="section alt">
+    <h2>Partes de un teclado</h2>
+    <ol class="parts">
+      <li><strong>Case</strong> La carcasa. Puede ser de plástico, aluminio, madera o acrílico.</li>
+      <li><strong>PCB</strong> La placa electrónica que registra cada pulsación. Muchas son hot-swap (sin soldar).</li>
+      <li><strong>Plate</strong> La placa que sostiene los switches. Su material cambia la rigidez.</li>
+      <li><strong>Switches</strong> El mecanismo bajo cada tecla. Definen la sensación al escribir.</li>
+      <li><strong>Stabilizers</strong> Estabilizan las teclas largas como Espacio, Shift y Enter.</li>
+      <li><strong>Keycaps</strong> Las teclas que tocas. Perfiles como Cherry, OEM, SA o XDA.</li>
+    </ol>
+  </section>
+
+  <section id="switches" class="section">
+    <h2>Tipos de switches</h2>
+    <div class="cards">
+      <article class="card switch red">
+        <div class="stem"></div>
+        <h3>Lineales</h3>
+        <p>Recorrido suave y constante, sin golpe. Ideales para gaming.</p>
+      </article>
+      <article class="card switch brown">
+        <div class="stem"></div>
+        <h3>Táctiles</h3>
+        <p>Un pequeño bulto indica que la tecla se activó. Buenos para escribir.</p>
+      </article>
+      <article class="card switch blue">
+        <div class="stem"></div>
+        <h3>Clicky</h3>
+        <p>Bulto táctil más un "click" audible. Los más ruidosos.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="galeria" class="section alt">
+    <h2>Tamaños populares</h2>
+    <div class="sizes">
+      <div class="size"><span class="pct">100%</span><p>Completo, con teclado numérico.</p></div>
+      <div class="size"><span class="pct">TKL</span><p>Sin numérico. Unas 87 teclas.</p></div>
+      <div class="size"><span class="pct">75%</span><p>Compacto con fila de funciones.</p></div>
+      <div class="size"><span class="pct">65%</span><p>Con flechas, sin fila F.</p></div>
+      <div class="size"><span class="pct">60%</span><p>Minimalista, usa capas.</p></div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Teclados Custom · Proyecto de Diego</p>
+  </footer>
+
+</body>
+</html>
