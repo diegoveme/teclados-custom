@@ -29,6 +29,7 @@
       <a href="#que-es" class="btn">Empezar</a>
     </div>
 
+    <div class="scene">
     <div class="keyboard" aria-hidden="true">
       <div class="row">
         <span class="key esc">Esc</span><span class="key">1</span><span class="key">2</span><span class="key">3</span><span class="key">4</span><span class="key">5</span><span class="key">6</span><span class="key">7</span><span class="key">8</span><span class="key">9</span><span class="key">0</span><span class="key wide">⌫</span>
@@ -45,6 +46,7 @@
       <div class="row">
         <span class="key w15">Ctrl</span><span class="key w15">Alt</span><span class="key space"></span><span class="key w15">Alt</span><span class="key w15">Ctrl</span>
       </div>
+    </div>
     </div>
   </section>
 
@@ -67,16 +69,30 @@
     </div>
   </section>
 
-  <section id="partes" class="section alt">
-    <h2>Partes de un teclado</h2>
-    <ol class="parts">
-      <li><strong>Case</strong> La carcasa. Puede ser de plástico, aluminio, madera o acrílico.</li>
-      <li><strong>PCB</strong> La placa electrónica que registra cada pulsación. Muchas son hot-swap (sin soldar).</li>
-      <li><strong>Plate</strong> La placa que sostiene los switches. Su material cambia la rigidez.</li>
-      <li><strong>Switches</strong> El mecanismo bajo cada tecla. Definen la sensación al escribir.</li>
-      <li><strong>Stabilizers</strong> Estabilizan las teclas largas como Espacio, Shift y Enter.</li>
-      <li><strong>Keycaps</strong> Las teclas que tocas. Perfiles como Cherry, OEM, SA o XDA.</li>
-    </ol>
+  <section id="partes" class="layers-section">
+    <div class="layers-sticky">
+      <div class="layers-text">
+        <h2>Partes de un teclado</h2>
+        <p class="lead">Haz scroll para desarmarlo capa por capa.</p>
+        <ol class="parts">
+          <li><strong>Case</strong> La carcasa. Puede ser de plástico, aluminio, madera o acrílico.</li>
+          <li><strong>PCB</strong> La placa electrónica que registra cada pulsación. Muchas son hot-swap (sin soldar).</li>
+          <li><strong>Plate</strong> La placa que sostiene los switches. Su material cambia la rigidez.</li>
+          <li><strong>Switches y stabilizers</strong> El mecanismo bajo cada tecla. Los stabilizers equilibran Espacio, Shift y Enter.</li>
+          <li><strong>Keycaps</strong> Las teclas que tocas. Perfiles como Cherry, OEM, SA o XDA.</li>
+        </ol>
+      </div>
+
+      <div class="layers-scene" aria-hidden="true">
+        <div class="stack">
+          <div class="layer l-case"></div>
+          <div class="layer l-pcb"></div>
+          <div class="layer l-plate"></div>
+          <div class="layer l-switches"></div>
+          <div class="layer l-keycaps"></div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section id="switches" class="section">
@@ -115,5 +131,6 @@
     <p>Teclados Custom · Proyecto de Diego</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
